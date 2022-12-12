@@ -1,0 +1,79 @@
+/* css reset  */
+
+*::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("keyboard.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+    backdrop-filter: blur(20px);
+
+}
+
+.main-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: inherit;
+}
+
+.main-form>form>div>input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: cursive;
+
+}
+
+.main-form>form>div {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    cursor: pointer;
+
+}
+/* #hide{
+    display: none;
+} */
+
+#btn {
+    height: 35px;
+    width: 130px;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+    border: none;
+    background-color: whitesmoke;
+    font-family: cursive;
+    font-size: 1rem;
+    transition: all .4s ease;
+    cursor: pointer;
+
+}
+
+#btn:hover {
+    color: white;
+    background-color: black;
+}
